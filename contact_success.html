@@ -1,0 +1,124 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Trendwise Analytics</title>
+<link href="css/main.css" rel="stylesheet" type="text/css" />
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+
+<!--Common Js -->
+<script type="text/javascript" src="js/jquery.min.js"></script>
+
+<!--Scroll -->
+<script type="text/javascript" src="js/scrolltopcontrol.js"></script>
+
+<!--Validations Js -->
+<script type="text/javascript" src="js/gen_validatorv31.js"></script>
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-23872309-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+</head>
+
+<body style="background:url(images/header_bg2.gif) top left repeat-x #FFF;">
+
+<!-- Header Panel Start -->
+<div class="header">
+    <h1><a href="index.html" title="Trendwise Analytics">Trendwise Analytics</a></h1>
+    <div class="mainMenu">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li class="mr0"><a href="contact.html">Contacts</a></li>
+      </ul>
+    </div>
+</div>
+<!-- Header Panel End -->
+
+<!-- Banner Panel Start -->
+<div class="banner_inside">
+<img src="images/banner_inside.jpg" alt="" />
+</div>
+<!-- Banner Panel End -->
+
+<!-- Middle Panel Start -->
+<div class="middle">
+
+<p>Your message has been Successfully sent</p>
+
+<div class="clear"></div> 
+</div>
+<!-- Middle Panel End -->
+
+<!-- Footer Panel Start -->
+<div class="footerContainer">
+<div class="footer">
+   <ul class="footerLinks">
+    <h1>Quick Links</h1>
+     <li><a href="index.html">Home</a></li>
+     <li><a href="about.html">About Us</a></li>
+     <li><a href="services.html">Services</a></li>
+     <li><a href="#">News &amp; Events</a></li>
+     <li class="last"><a href="contact.html">Contact Us</a></li>
+   </ul>
+   
+   <ul class="footerLinks">
+    <h1>Latest Services</h1>
+     <li><a href="services.html">CRM Analytics</a></li>
+     <li><a href="services.html">HR Analytics</a></li>
+     <li><a href="services.html">Big Data Analysis</a></li>
+     <li><a href="services.html">Social Media and Text Analytics</a></li>
+     <li><a href="services.html">Predictive Modeling</a></li>
+     <li class="last"><a href="services.html">Mobility / Mobile Analytics</a></li>
+   </ul>
+   
+   <ul class="social">
+    <h1>Find us On</h1>
+     <li><a href="#"><img src="images/rss.gif" alt="" />Rss feed</a></li>
+     <li><a href="#"><img src="images/twitter.gif" alt="" />Twitter</a></li>
+     <li><a href="http://www.facebook.com/pages/Trendwise-Analytics/144397128996766?sk=info"><img src="images/facebook.gif" alt="" />Facebook</a></li>
+     <li><a href="#"><img src="images/linked.gif" alt="" />Linked in</a></li>
+   </ul>
+   
+   <ul class="footerContact">
+    <h1>Quick Message</h1>
+    <form method="POST" name="contactform" action="contactemail.php"> 
+     <input name="name" type="text" class="textfield" value="Name" />
+     <input name="email" type="text" class="textfield" value="Email" />
+     <textarea name="message" class="textArea">Message</textarea>
+     <input name="submit" type="submit"  class="send" value="" />
+     </form>
+   </ul>
+   
+ <div class="clear"></div>   
+<div class="copyright"><span>Powered By <a href="http://www.inovvorx.com/" target="_blank">InoVVorX</a></span>Copyright © 2011 <a href="index.html">Trandwise Analytics</a>. All rights reserved.</div>
+    
+</div>
+</div>
+<!-- Footer Panel End -->
+
+<script language="JavaScript">
+// Code for validating the form
+// Visit http://www.javascript-coder.com/html-form/javascript-form-validation.phtml
+// for details
+var frmvalidator  = new Validator("contactform");
+frmvalidator.addValidation("name","req","Please provide your name"); 
+frmvalidator.addValidation("email","req","Please provide your email"); 
+frmvalidator.addValidation("email","email","Please enter a valid email address"); 
+frmvalidator.addValidation("message","message","Please enter message"); 
+</script>
+
+</body>
+</html>

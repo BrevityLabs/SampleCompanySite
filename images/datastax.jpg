@@ -1,0 +1,495 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta charset="UTF-8" />
+		
+		
+		<link rel="shortcut icon" href="http://www.datastax.com/wp-content/themes/datastax-custom/favicon.ico" type="image/x-icon" />
+		<link rel="alternate" type="application/rss+xml" title="DataStax Feed" href="http://feeds.feedburner.com/datastax" /> 
+		<title> DataStax &#8211; Software, support, and training for Apache Cassandra | DataStax</title>
+		<link rel='stylesheet' id='datastax-css'  href='http://www.datastax.com/wp-content/themes/datastax-custom/css/core.css?ver=1.0' type='text/css' media='screen' />
+<link rel='stylesheet' id='datastax-system-css'  href='http://www.datastax.com/wp-content/themes/datastax-custom/css/system.css?ver=1.0' type='text/css' media='screen' />
+<link rel='stylesheet' id='datastax-default-css'  href='http://www.datastax.com/wp-content/themes/datastax-custom/css/default.css?ver=1.0' type='text/css' media='screen' />
+<link rel='stylesheet' id='datastax-wp-css'  href='http://www.datastax.com/wp-content/themes/datastax-custom/style.css?ver=1.0' type='text/css' media='screen' />
+<link rel='stylesheet' id='datastax-print-css'  href='http://www.datastax.com/wp-content/themes/datastax-custom/css/print.css?ver=1.0' type='text/css' media='print' />
+<link rel='stylesheet' id='hubspot-css'  href='http://www.datastax.com/wp-content/plugins/hubspot/css/hubspot.css?ver=3.1' type='text/css' media='all' />
+<link rel="stylesheet" type="text/css" href="http://www.datastax.com/wp-content/plugins/wp-facebox-gallery/facebox2.css" />
+<script type="text/javascript">/* wp-facebox */
+	WPFB = { root: "http://www.datastax.com/wp-content/plugins/wp-facebox-gallery", home: "http://www.datastax.com", site: "http://www.datastax.com" };
+	WPFB.options = { 
+        loading_image   : WPFB.root + '/images/loading.gif',
+        close_image     : WPFB.root + '/images/closelabel.gif',
+        image_types     : [ 'png', 'jpg', 'jpeg', 'gif' ],
+        next_image      : WPFB.root + '/images/fast_forward.png',
+        prev_image      : WPFB.root + '/images/rewind.png',
+        play_image      : WPFB.root + '/images/play.png',
+        pause_image     : WPFB.root + '/images/pause.png'
+    };
+</script>
+<script type='text/javascript' src='http://www.datastax.com/wp-includes/js/l10n.js?ver=20101110'></script>
+<script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js?ver=1.4.4'></script>
+<script type='text/javascript' src='http://www.datastax.com/wp-content/plugins/wp-facebox-gallery/facebox2.js?ver=2.0'></script>
+<script type='text/javascript' src='http://maps.google.com/maps/api/js?sensor=false&#038;ver=3.1'></script>
+
+<!-- All in One SEO Pack 1.6.13.3 by Michael Torbert of Semper Fi Web Design[-1,-1] -->
+<meta name="description" content="DataStax is the commercial leader in Apache Cassandra, providing software, support, and training." />
+<meta name="keywords" content="NoSQL databases,big data,Hadoop MapReduce,Real time database,Real time analytics,Hadoop Hive,Cassandra,Apache Cassandra,Apache Hadoop,Cassandra DB" />
+<!-- /all in one seo pack -->
+<link type="text/css" rel="stylesheet" media="all" href="http://www.datastax.com/wp-content/plugins/meetupWidget/meetupwidget.css" />
+<script type="text/javascript">if (jQuery && jQuery.facebox) jQuery(function($) { $("a[rel*='facebox'], .gallery-item a").facebox(WPFB.options); });</script>
+<meta name="google-site-verification" content="qLux1bhC-tgDVidUfPH8WU-Jc4Cr4ggXj9w48FcJtiw" />				
+	</head>
+	<body class="home page page-id-153 page-template page-template-template-home3-php">
+		<div class="bg-decoration"></div>
+		<div class="body-abs">
+			<div class="body-wrapper body-clip-width">
+				<div class="header">
+					<div class="logo">
+													<h1 style="margin:0px;"><a href="/" title=""><img src="http://www.datastax.com/wp-content/themes/datastax-custom/images/logo.png" alt="DataStax, the Commercial leader in Apache Cassandra" id="logo" /></a></h1>
+																</div>
+					<div class="top-links"><ul id="menu-top-links" class="menu"><li id="menu-item-2154" class="menu-item menu-item-type-post_type menu-item-object-page first"><a href="http://www.datastax.com/contact-us">Contact Us</a></li>
+<li id="menu-item-7649" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="http://www.datastax.com/why-cassandra">Why Cassandra?</a></li>
+<li id="menu-item-367" class="dev-center menu-item menu-item-type-post_type menu-item-object-page"><a href="http://www.datastax.com/dev">Dev Center</a>
+<ul class="sub-menu">
+	<li id="menu-item-493" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="http://www.datastax.com/docs">Documentation</a></li>
+	<li id="menu-item-8394" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="http://www.datastax.com/dev/referencecards">Docs &#8211; Reference Cards</a></li>
+	<li id="menu-item-5716" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="http://www.datastax.com/faq">FAQ</a></li>
+	<li id="menu-item-1785" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="http://www.datastax.com/support-forums/">Support Forums</a></li>
+	<li id="menu-item-503" class="menu-item menu-item-type-custom menu-item-object-custom"><a><a href="http://www.datastax.com/dev/blog/" style="width:130px; display: inline;">Developer Blog</a><a href="http://feeds.feedburner.com/datastax-dev" target="_blank" style="width:16px; display: inline;"><img class="rssIcon" src="http://www.datastax.com/wp-content/themes/datastax-custom/images/rss_icon.png" alt="RSS Icon" width="16"/></a></a></li>
+	<li id="menu-item-2467" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="http://www.datastax.com/docs/1.0/introduction/index#getting-started-with-cassandra">Getting Started</a></li>
+	<li id="menu-item-447" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="http://www.datastax.com/dev/articles">Articles</a></li>
+	<li id="menu-item-2444" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="http://www.datastax.com/dev/case-studies">Case Studies</a></li>
+	<li id="menu-item-445" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="http://www.datastax.com/dev/tutorials">Tutorials</a></li>
+	<li id="menu-item-444" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="http://www.datastax.com/dev/video">Video</a></li>
+	<li id="menu-item-4308" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="http://www.datastax.com/events/cassandrasf2011/presentations">Cassandra SF Presentations</a></li>
+	<li id="menu-item-6996" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="http://www.datastax.com/events/cassandranyc2011">Cassandra NYC 2011</a></li>
+	<li id="menu-item-4381" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="http://www.datastax.com/dev/usergroups">Cassandra User Groups</a></li>
+</ul>
+</li>
+<li id="menu-item-7119" class="menu-item menu-item-type-post_type menu-item-object-page last"><a href="http://www.datastax.com/download">Downloads</a></li>
+</ul></div>					<div class="clearfix"></div>
+				</div>
+				<div class="menubar"><ul id="menu-primary-menu" class="menu"><li id="menu-item-5758" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-153 current_page_item first"><a href="http://www.datastax.com/">      </a></li>
+<li id="menu-item-2361" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="http://www.datastax.com/dev">Dev Center</a>
+<ul class="sub-menu">
+	<li id="menu-item-2365" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="http://www.datastax.com/docs">Documentation</a></li>
+	<li id="menu-item-8393" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="http://www.datastax.com/dev/referencecards">Docs &#8211; Reference Cards</a></li>
+	<li id="menu-item-2363" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="http://www.datastax.com/support-forums/">Support Forums</a></li>
+	<li id="menu-item-2364" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="http://www.datastax.com/dev/blog">Developer Blog</a></li>
+	<li id="menu-item-2367" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="http://www.datastax.com/dev/articles">Articles</a></li>
+	<li id="menu-item-2443" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="http://www.datastax.com/dev/case-studies">Case Studies</a></li>
+	<li id="menu-item-2369" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="http://www.datastax.com/dev/tutorials">Tutorials</a></li>
+	<li id="menu-item-2370" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="http://www.datastax.com/dev/video">Video</a></li>
+	<li id="menu-item-4188" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="http://www.datastax.com/events/cassandrasf2011/presentations">Cassandra SF Presentations</a></li>
+	<li id="menu-item-8291" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="http://www.datastax.com/events/cassandranyc2011/presentations">Cassandra NYC Presentations</a></li>
+	<li id="menu-item-4382" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="http://www.datastax.com/dev/usergroups">Cassandra User Groups</a></li>
+</ul>
+</li>
+<li id="menu-item-417" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="http://www.datastax.com/products">Products &#038; Services</a>
+<ul class="sub-menu">
+	<li id="menu-item-5952" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="http://www.datastax.com/products/enterprise">DataStax Enterprise &#8211; Powered by Apache Cassandra™</a></li>
+	<li id="menu-item-5951" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="http://www.datastax.com/products/community">DataStax Community &#8211; Powered by Apache Cassandra™</a></li>
+	<li id="menu-item-416" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="http://www.datastax.com/products/opscenter">DataStax OpsCenter</a></li>
+	<li id="menu-item-7125" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="http://www.datastax.com/products/enterprise/startups">DataStax Enterprise for Startups</a></li>
+	<li id="menu-item-7024" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="http://www.datastax.com/products/services">DataStax Services</a></li>
+</ul>
+</li>
+<li id="menu-item-2295" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="http://www.datastax.com/solutions">Solutions</a>
+<ul class="sub-menu">
+	<li id="menu-item-6406" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="http://www.datastax.com/solutions/bigdata">Big Data</a></li>
+	<li id="menu-item-7326" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="http://www.datastax.com/1-million-writes">One Million Writes / Sec</a></li>
+	<li id="menu-item-2292" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="http://www.datastax.com/solutions/multi-datacenter">Multi-Datacenter</a></li>
+	<li id="menu-item-2309" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="http://www.datastax.com/solutions/scaleable-elastic-datacenter">Scalable/Elastic Datacenter</a></li>
+	<li id="menu-item-2289" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="http://www.datastax.com/solutions/reliable-scalable-hadoop">Reliable/Scalable Hadoop</a></li>
+	<li id="menu-item-2291" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="http://www.datastax.com/solutions/schema-less-database">Dynamic/Flexible Schema</a></li>
+	<li id="menu-item-2288" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="http://www.datastax.com/solutions/real-time-analytics">Real Time &#038; Analytics</a></li>
+	<li id="menu-item-2290" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="http://www.datastax.com/solutions/eliminate-caching-layer">Eliminate Caching Layer</a></li>
+</ul>
+</li>
+<li id="menu-item-5484" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="http://www.datastax.com/cassandrausers">Cassandra Users</a></li>
+<li id="menu-item-178" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="http://www.datastax.com/resources">Resources</a>
+<ul class="sub-menu">
+	<li id="menu-item-1934" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="http://www.datastax.com/resources/datasheets">Data Sheets</a></li>
+	<li id="menu-item-6035" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="http://datastax.com/docs">Documentation</a></li>
+	<li id="menu-item-6454" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="http://www.datastax.com/resources/tutorials">Cassandra Essentials Tutorials</a></li>
+	<li id="menu-item-2242" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="http://www.datastax.com/resources/casestudies">Customer Case Studies</a></li>
+	<li id="menu-item-7185" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="http://www.datastax.com/resources/webinars">Webinars</a></li>
+	<li id="menu-item-1933" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="http://www.datastax.com/resources/whitepapers">White Papers</a></li>
+	<li id="menu-item-1935" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="http://www.datastax.com/resources/videos">Videos</a></li>
+	<li id="menu-item-5714" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="http://www.datastax.com/faq">FAQ</a></li>
+</ul>
+</li>
+<li id="menu-item-429" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="http://www.datastax.com/news/media">News</a>
+<ul class="sub-menu">
+	<li id="menu-item-428" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="http://www.datastax.com/news/media">Media</a></li>
+	<li id="menu-item-427" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="http://www.datastax.com/news/press-releases">Press Releases</a></li>
+	<li id="menu-item-553" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="http://www.datastax.com/events">Events</a></li>
+</ul>
+</li>
+<li id="menu-item-434" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="http://www.datastax.com/about-us/about-datastax">Company</a>
+<ul class="sub-menu">
+	<li id="menu-item-433" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="http://www.datastax.com/about-us/about-datastax">About DataStax</a></li>
+	<li id="menu-item-432" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="http://www.datastax.com/about-us/management">Management</a></li>
+	<li id="menu-item-431" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="http://www.datastax.com/about-us/investors">Investors</a></li>
+	<li id="menu-item-1413" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="http://www.datastax.com/about-us/partners">Partners</a></li>
+	<li id="menu-item-430" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="http://www.datastax.com/careers">Careers</a></li>
+	<li id="menu-item-7650" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="http://www.datastax.com/contact-us">Contact Us</a></li>
+</ul>
+</li>
+<li id="menu-item-737" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="http://www.datastax.com/blog">Blog</a></li>
+<li id="menu-item-7491" class="menu-item menu-item-type-custom menu-item-object-custom last"><a><div id="searchwrapper">  <div id="cse-search-form" style="width: 100%;"></div></div></a></li>
+</ul></div>				<div class="content-wrapper"><div id="home" class="content-right">
+<div class="sidebar-right">
+					<div class="content-left">
+						<div class="sidemenu">
+							<ul><div class="menu-primary-menu-container"><li id="menu-item-5758" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-153 current_page_item"><a href="http://www.datastax.com/">      </a></li>
+</div></ul><div id="datastax-resources-4" class="content-block widget datastax-resources"><div class="title"><a href="http://www.datastax.com/resources">Resources</a></div>
+
+			<div class="textwidget">
+				<div class="block">
+					<div style="font-size:11px;">
+						<div class="view view-news view-id-news view-display-id-block_1 view-dom-id-4">
+							<div class="view-content">
+																		<div class="datastax-resource">
+											<div class="resource-icon"><a href="http://www.datastax.com/wp-content/uploads/2012/01/DS_CLI_web.pdf" target="_blank"><img src="http://www.datastax.com/wp-content/themes/datastax-custom/images/icons/white-paper.png" style="height:28px;" alt="Resource Icon"></a></div>
+											<div class="resource-list-item"><a href="http://www.datastax.com/wp-content/uploads/2012/01/DS_CLI_web.pdf" target="_blank">Reference Card: Apache Cassandra Command Line Interface (CLI)</a></div></div>
+																			<div class="dotted_horizontal"><hr /></div>
+																			<div class="datastax-resource">
+											<div class="resource-icon"><a href="http://www.datastax.com/wp-content/uploads/2012/01/DS_CQL_web.pdf" target="_blank"><img src="http://www.datastax.com/wp-content/themes/datastax-custom/images/icons/white-paper.png" style="height:28px;" alt="Resource Icon"></a></div>
+											<div class="resource-list-item"><a href="http://www.datastax.com/wp-content/uploads/2012/01/DS_CQL_web.pdf" target="_blank">Reference Card: Apache Cassandra Query Language (CQL)</a></div></div>
+																			<div class="dotted_horizontal"><hr /></div>
+																			<div class="datastax-resource">
+											<div class="resource-icon"><a href="http://www.datastax.com/wp-content/uploads/2012/01/DS_nodetool_web.pdf" target="_blank"><img src="http://www.datastax.com/wp-content/themes/datastax-custom/images/icons/white-paper.png" style="height:28px;" alt="Resource Icon"></a></div>
+											<div class="resource-list-item"><a href="http://www.datastax.com/wp-content/uploads/2012/01/DS_nodetool_web.pdf" target="_blank">Reference Card: Apache Cassandra Nodetool/Management</a></div></div>
+																			<div class="dotted_horizontal"><hr /></div>
+																			<div class="datastax-resource">
+											<div class="resource-icon"><a rel="facebox" href="#facebox-vid-7941"><img src="http://www.datastax.com/wp-content/themes/datastax-custom/images/icons/webinar.png" style="height:28px;" alt="Resource Icon"></a></div>
+											<div class="resource-list-item"><a rel="facebox" href="#facebox-vid-7941">Real NoSQL Applications in the Enterprise Today</a></div>
+											<div id="facebox-vid-7941" style="display: none;"><object width="420" height="315"><param name="movie" value="http://www.youtube.com/v/jxcQNftPxhs?version=3&amp;hl=en_US"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/jxcQNftPxhs?version=3&amp;hl=en_US" type="application/x-shockwave-flash" width="420" height="315" allowscriptaccess="always" allowfullscreen="true"></embed></object></div></div>
+																			<div class="dotted_horizontal"><hr /></div>
+																				<div class="datastax-resource">
+											<div class="resource-icon"><a href="https://bloorgroup.webex.com/bloorgroup/lsr.php?AT=pb&SP=EC&rID=4530172&rKey=2fb66421db3df883" target="_blank"><img src="http://www.datastax.com/wp-content/themes/datastax-custom/images/icons/webinar.png" style="height:28px;" alt="Resource Icon"></a></div>
+											<div class="resource-list-item"><a href="https://bloorgroup.webex.com/bloorgroup/lsr.php?AT=pb&SP=EC&rID=4530172&rKey=2fb66421db3df883" target="_blank">The Business of Analytics and Scalability</a></div></div>
+																</div>
+						</div>
+					</div>	
+				</div>
+			</div>
+
+			</div>
+<div id="datastax-dev-blog-titles-3" class="content-block widget datastax-dev-blog-titles"><div class="title"><a href="http://www.datastax.com/dev/blog">Developer Blog</a></div>
+			
+			<div class="textwidget">
+				<div class="block">
+						<ul>
+													<li><div class="list-bullet-text"><a href="http://www.datastax.com/dev/blog/your-ideal-performanceconsistency-tradeoff">Your Ideal Performance:Consistency Tradeoff</a></div></li>
+													<li><div class="list-bullet-text"><a href="http://www.datastax.com/dev/blog/vote-in-new-poll-on-cassandra-apps">Vote in new poll on Cassandra apps</a></div></li>
+													<li><div class="list-bullet-text"><a href="http://www.datastax.com/dev/blog/the-best-cassandra-talks-of-2011">The Best Cassandra Talks of 2011</a></div></li>
+													<li><div class="list-bullet-text"><a href="http://www.datastax.com/dev/blog/whats-your-primary-web-browser-please-vote-in-new-poll">What&#8217;s your primary web browser? Please vote in new poll.</a></div></li>
+													<li><div class="list-bullet-text"><a href="http://www.datastax.com/dev/blog/test-driving-the-new-cql-utility">Test driving the new CQL utility</a></div></li>
+													<li><div class="list-bullet-text"><a href="http://www.datastax.com/dev/blog/apache-cassandra-in-linux-com%e2%80%99s-top-10-open-source-projects-for-2011">Apache Cassandra in Linux.com’s top 10 open source projects for 2011</a></div></li>
+												</ul>
+				</div>
+			</div>
+
+			</div>
+<div id="text-12" class="content-block widget widget_text"><div class="title">Quick Poll</div>
+			<div class="textwidget"><div class="text-widget quick-poll">
+<script type="text/javascript">
+	var submitted=false; 
+	var url="";
+	if (window.location.hash=="#poll-submit"){
+		jQuery.facebox('<h3>Thanks for answering the poll!</h3><p>Your answers have been submitted.<p><p><a href="#poll-results" rel="facebox">Click here</a> to view poll results.</p>');
+	}
+</script>
+<iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted){window.location=url; window.location.reload();}"></iframe>
+<form action="https://docs.google.com/a/datastax.com/spreadsheet/formResponse?formkey=dC1PbVY0SDlPc2tsdHV2R3lYVXlJV1E6MA&amp;embedded=true" method="POST" id="ss-form" target="hidden_iframe" onsubmit="submitted=true; if(location.hash=='#poll-submit'){ url=document.location.href} else{ url=document.location.href+'#poll-submit';}">
+<div class="errorbox-good">
+<div class="ss-item ss-item-required ss-select"><div class="ss-form-entry"><label class="ss-q-title" for="entry_0">For which industry do you develop Cassandra applications?</label><div class="clearfix"></div>
+<label class="ss-q-help" for="entry_0"></label>
+<select name="entry.0.single" id="entry_0" style="width: 200px; margin: 15px 0px;"><option value="Aerospace and Defense">Aerospace and Defense</option> <option value="Automotive">Automotive</option> <option value="Biotechnology">Biotechnology</option> <option value="Business services provider">Business services provider</option> <option value="Chemicals">Chemicals</option> <option value="Construction">Construction</option> <option value="Education">Education</option> <option value="Finance, Banking, Insurance">Finance, Banking, Insurance</option><option value="Gaming">Gaming</option><option value="Government: Federal or National">Government: Federal or National</option> <option value="Government: State or Local">Government: State or Local</option> <option value="Healthcare and Medical">Healthcare and Medical</option> <option value="Legal">Legal</option> <option value="Manufacturing, Processing">Manufacturing, Processing</option> <option value="Media and Entertainment">Media and Entertainment</option> <option value="Oil and Gas">Oil and Gas</option> <option value="Pharmaceuticals">Pharmaceuticals</option> <option value="Retail">Retail</option> <option value="Security">Security</option> <option value="Telecom">Telecom</option> <option value="Transportation: Railways, Trucking, Shipping">Transportation: Railways, Trucking, Shipping</option> <option value="Travel and Hospitality: Airlines, Hotels, Resorts">Travel and Hospitality: Airlines, Hotels, Resorts</option> <option value="Technology: Appliance">Technology: Appliance</option> <option value="Technology: Hardware">Technology: Hardware</option> <option value="Technology: Networking">Technology: Networking</option> <option value="Technology: Consulting, SI, VAR">Technology: Consulting, SI, VAR</option> <option value="Technology: Software">Technology: Software</option> <option value="Web: Application Service Provider, SaaS">Web: Application Service Provider, SaaS</option> <option value="Web: Hosting Provider">Web: Hosting Provider</option> <option value="Web: eCommerce, Shopping">Web: eCommerce, Shopping</option> <option value="Web: Portal, Social Network">Web: Portal, Social Network</option> <option value="Other">Other</option></select></div></div></div>
+<div class="clearfix"></div>
+<input type="hidden" name="pageNumber" value="0"> 
+<input type="hidden" name="backupCache" value=""> 
+<div class="ss-item ss-navigate"><div class="ss-form-entry">
+<a href="#poll-results" rel="facebox">View poll results</a><input type="submit" name="submit" value="Submit" style="float:right; margin-top:-3px;"></div></div></form>
+<div style="margin: 0px 6px 3px 6px;"><a href="/polls" style="color: #68AC18; font-size: 11px;">View previous polls</a></div>
+</div>
+
+<div id="poll-results" style="display:none;">
+<iframe src="http://docs.google.com/spreadsheet/viewanalytics?formkey=dC1PbVY0SDlPc2tsdHV2R3lYVXlJV1E6MA" width="900" height="600"></iframe>
+</div>
+<div id="poll-submit" style="display:none;">
+	<h2>Thanks for answering the poll!</h2>
+	<p><a href="#poll-results" rel="facebox">Click here to view poll results</a></p>
+</div></div>
+		</div>
+						</div>
+					</div></div>
+	<div class="clear-block">
+		<div class="front-page">
+        <div class="main_view">
+            <div class="window">
+                 <div class="image_reel">
+                
+                	<div id="CassandraNYC">
+                    	<img id="nyc" src="http://www.datastax.com/wp-content/themes/datastax-custom/images/slider/nyc.png" alt="NYC" style="position: absolute; left: 394px; top: -120px;" />
+                    	<img id="first-annual-nyc" src="http://www.datastax.com/wp-content/themes/datastax-custom/images/slider/first-annual-nyc.png" alt="Apache Hadoop Hive" style="position: absolute; left: 713px; top: 0px; display: none;" />
+						<a href="http://www.datastax.com/events/cassandranyc2011/presentations" class="slideLink2" style="position: absolute; left: 475px; top: 238px;"><img src="http://www.datastax.com/wp-content/themes/datastax-custom/images/slider/btn-slides.png" alt="View Presentations and Slides" ></a>                    		
+                   </div>
+                   <div id="thats-fast">
+                   <a href="/1-million-writes">
+						<img id="thats-fast-millionwrites" src="http://www.datastax.com/wp-content/themes/datastax-custom/images/slider/thats-fast-millionwrites.png" alt="Apache Cassandra 1 Millions writes per sec" style="position: absolute; left: 713px; display: none;" />
+						<img id="thats-fast-thats-fast" src="http://www.datastax.com/wp-content/themes/datastax-custom/images/slider/thats-fast-thats-fast.png" alt="Apache Cassandra That's Fast" style="position: absolute; left: 713px; display: none;" />
+						<img id="thats-fast-c-fast" src="http://www.datastax.com/wp-content/themes/datastax-custom/images/slider/thats-fast-c-fast.png" alt="Apache Cassandra fast" style="position: absolute; left: 713px; display: none;" />
+                   </div>
+                   </a>
+                    <a href="/products/enterprise">
+                    <div id="PoweredbyC">
+                   			 <img id="full-circle" src="http://www.datastax.com/wp-content/themes/datastax-custom/images/slider/full-circle.png" alt="Enterprise ring" style="left: 1426px; top: 20px; position: absolute;" />
+							<img id="inner-circle" src="http://www.datastax.com/wp-content/themes/datastax-custom/images/slider/inner-circle.png" alt="Massively Scalable Ring Architecture" style="left: 1426px; top: 20px; position: absolute;" />
+							<img id="outer-circle" src="http://www.datastax.com/wp-content/themes/datastax-custom/images/slider/outer-circle.png" alt="Fastest Write Performance" style="left: 1426px; top: 20px; position: absolute;" />
+							<img id="inner-circle2" src="http://www.datastax.com/wp-content/themes/datastax-custom/images/slider/inner-circle2.png" alt="Extreme Fault Tolerance" style="left: 1426px; top: 20px; position: absolute;" />
+							<img id="outer-circle2" src="http://www.datastax.com/wp-content/themes/datastax-custom/images/slider/outer-circle2.png" alt="Multi-data center replication" style="left: 1426px; top: 20px; position: absolute;" />
+							<img id="banner-enterprise" src="http://www.datastax.com/wp-content/themes/datastax-custom/images/slider/banner-enterprise.png" alt="DataStax Enterprise" style="display: none; left: 1426px; top: 0px; position: absolute;" />
+							<img id="marketecture" src="http://www.datastax.com/wp-content/themes/datastax-custom/images/slider/marketecture.png" alt="DataStax Enterprise Marketecture" style="display: none; left: 1426px; top: 0px; position: absolute;" />
+							<img id="enterprise-now-available" src="http://www.datastax.com/wp-content/themes/datastax-custom/images/slider/enterprise-now-available.png" alt="DataStax Enterprise Now Available" style="display: none; left: 1426px; top: 0px; position: absolute;" />
+                   </div>
+                   </a>
+                    <div id="GigaOMWebinar">
+                   		<img id="webinar-datastax" src="http://www.datastax.com/wp-content/themes/datastax-custom/images/slider/webinar-datastax.png" alt="DataStax Logo" style="position: absolute; left: 2852px; display: none;" />
+						<img id="webinar-gigaom" src="http://www.datastax.com/wp-content/themes/datastax-custom/images/slider/webinar-gigaompro.png" alt="GigaOM Pro" style="position: absolute; left: 1426px; display: none;" />
+						<a id="webinar-reg" href="http://www.datastax.com/resources/webinars" style="position: absolute; left: 2640px; top: 220px; display: none;"><img src="http://www.datastax.com/wp-content/themes/datastax-custom/images/slider/btn-reg-webinar.png" alt="View Webinar on Demand" ></a>
+                   </div>
+
+                   <div id="essentials">
+						<img id="essentials-apachec" src="http://www.datastax.com/wp-content/themes/datastax-custom/images/slider/essentials-apachec.png" alt="DataStax Essentials Apache Cassandra" style="position: absolute; top: -274px; display: none;" />
+						<img id="essentials-tutorial" src="http://www.datastax.com/wp-content/themes/datastax-custom/images/slider/essentials-tutorial.png" alt="DataStax Essentials Tutorial" style="position: absolute; left: 2139px; display: none;" />
+						<img id="essentials-series" src="http://www.datastax.com/wp-content/themes/datastax-custom/images/slider/essentials-series.png" alt="DataStax Essentials Series" style="position: absolute; top:274px; display: none;" />
+						<img id="essentials-overview-opsc" src="http://www.datastax.com/wp-content/themes/datastax-custom/images/slider/essentials-overview-opsc.png" alt="DataStax Essentials OpsCenter" style="position: absolute; left: 3052px; top: 80px; display: none; z-index:1;" />
+						<img id="essentials-overview-enterprise" src="http://www.datastax.com/wp-content/themes/datastax-custom/images/slider/essentials-overview-enterprise.png" alt="DataStax Essentials Enterprise" style="position: absolute; left: 3052px; top: 36px; display: none; z-index:2;" />
+						<img id="essentials-overview-c" src="http://www.datastax.com/wp-content/themes/datastax-custom/images/slider/essentials-overview-c.png" alt="DataStax Essentials Cassandra Overview" style="position: absolute; left: 3052px; top: 50px; display: none; z-index:3;" />
+						<a id="view-essentials" href="http://www.datastax.com/resources/tutorials/" style="position: absolute; left: 2927px; top: 80px; display: none;"><img src="http://www.datastax.com/wp-content/themes/datastax-custom/images/slider/btn-view-tutorials.png" alt="View Cassandra Essentials Tutorials" ></a>
+                   </div>
+                </div>
+            </div>
+            <div class="paging">
+	            <a id="btn-nyc" href="#" rel="1"></a>
+            	<a id="btn-thats-fast" href="#" rel="2"></a>
+                <a id="btn-c" href="#" rel="3"></a> 
+				<a id="btn-webinar" href="#" rel="4"></a>
+            	<a id="btn-essentials" href="#" rel="5"></a>
+            </div>
+        </div>
+			<div class="intro-blurb">
+								 <div id="homepage-content">
+<div id="homepage-text" ><a href="http://www.datastax.com/download/community"><img src="http://www.datastax.com/wp-content/uploads/2011/02/DataStax-community-250px.png" rel="facebox" alt="DataStax Community" width="250" align="right" style="padding-left: 20px; padding-right: 20px;"/></a>DataStax Community Edition is the fastest, easiest way to be up and running in 10 minutes with Apache Cassandra™ &#8211;  <a href="http://www.datastax.com/download/community">Download here.</a></div>
+</div>								</div>
+								<div class="content-block-row">
+									<div id="datastax-corp-blog-titles-3" class="content-block widget datastax-corp-blog-titles"><div class="title"><a href="http://www.datastax.com/blog">Blog</a></div>
+			
+			<div class="textwidget">
+				<div class="block">
+						<ul>
+													<li><div class="list-bullet-text"><a href="http://www.datastax.com/2012/01/why-should-i-use-cassandra">Why should I use Cassandra?</a></div></li>
+													<li><div class="list-bullet-text"><a href="http://www.datastax.com/2012/01/vote-in-new-poll-on-cassandra-apps">Vote in new poll on Cassandra apps</a></div></li>
+													<li><div class="list-bullet-text"><a href="http://www.datastax.com/2012/01/big-data-use-cases-chances-are-youre-in-here-somewhere">Big Data use cases &#8211; chances are you&#8217;re in here somewhere&#8230;</a></div></li>
+													<li><div class="list-bullet-text"><a href="http://www.datastax.com/2011/12/more-on-big-data-in-2012">More on Big Data in 2012</a></div></li>
+													<li><div class="list-bullet-text"><a href="http://www.datastax.com/2011/12/cassandra-ends-2011-with-strong-momentum">Cassandra ends 2011 with strong momentum</a></div></li>
+												</ul>
+				</div>
+			</div>
+
+			</div>
+									<div id="datastax-news-media-4" class="content-block widget datastax-news-media"><div class="title"><a href="http://www.datastax.com/news/media">News Media</a></div>
+			
+			<div class="textwidget">
+				<div class="block">
+					<div style="font-size:11px;">
+						<div class="view view-news-media view-id-news-media">
+							<div class="view-content">
+																<div class="news-media-item">
+									<a href="http://fosdem.org/2012/interview/sylvain-lebresne" target="_blank">
+									<img src="http://www.datastax.com/wp-content/uploads/2012/01/fosdem.jpg" width="75"/>
+									Interview with Sylvain Lebresne of DataStax</a>
+								</div>
+								<div class="clearfix"></div>
+																<div class="news-media-item">
+									<a href="http://www.zdnet.com/blog/virtualization/comments-on-ny-times-big-data-article/4427" target="_blank">
+									<img src="http://www.datastax.com/wp-content/uploads/2011/12/zdnet.png" width="75"/>
+									Comments on NY Times Big Data article</a>
+								</div>
+								<div class="clearfix"></div>
+																<div class="news-media-item">
+									<a href="http://blogs.the451group.com/information_management/2011/12/14/newsql-cap-theorem-and-latency-tolerance/" target="_blank">
+									<img src="http://www.datastax.com/wp-content/uploads/2011/12/451group.png" width="75"/>
+									How to to provide a strongly consistent distributed database&#8230;</a>
+								</div>
+								<div class="clearfix"></div>
+															</div>
+						</div>
+					</div>	
+				</div>
+			</div>
+
+			</div>
+									<div id="datastax-events-8" class="content-block widget datastax-events"><div class="title"><a href="http://www.datastax.com/events">Events</a></div>
+			
+			<div class="textwidget">
+				<div class="block">
+					<div style="font-size:11px;">
+						<div class="view view-news view-id-news view-display-id-block_1 view-dom-id-4">
+							<div class="view-content">
+																<div class="event-item">
+									<div class="event-date">
+									<a class="events-date" href="http://www.meetup.com/San-Francisco-Cassandra-User-Group/events/45878062/" 
+										target="_blank">Jan 11</a> 
+									</div>
+									<div class="event-name">
+									<a class="events-name" href="http://www.meetup.com/San-Francisco-Cassandra-User-Group/events/45878062/" 
+										target="_blank">SF Cassandra User Group: Ask a Cassandra Expert</a>
+									</div>
+								</div>
+																<div class="event-item">
+									<div class="event-date">
+									<a class="events-date" href="http://datadrinkupaustin-2012.eventbrite.com/" 
+										target="_blank">Jan 12</a> 
+									</div>
+									<div class="event-name">
+									<a class="events-name" href="http://datadrinkupaustin-2012.eventbrite.com/" 
+										target="_blank">Big Data Drinkup 2012 &#8211; Austin</a>
+									</div>
+								</div>
+																<div class="event-item">
+									<div class="event-date">
+									<a class="events-date" href="http://www.meetup.com/silicon-valley-cassandra-user-group/events/47374802/" 
+										target="_blank">Jan 18</a> 
+									</div>
+									<div class="event-name">
+									<a class="events-name" href="http://www.meetup.com/silicon-valley-cassandra-user-group/events/47374802/" 
+										target="_blank">Silicon Valley Cassandra User Group First 2012 Meetup</a>
+									</div>
+								</div>
+																<div class="event-item">
+									<div class="event-date">
+									<a class="events-date" href="http://datastaxsea.eventbrite.com/" 
+										target="_blank">Jan 19</a> 
+									</div>
+									<div class="event-name">
+									<a class="events-name" href="http://datastaxsea.eventbrite.com/" 
+										target="_blank">Cassandra Training &#8211; Seattle</a>
+									</div>
+								</div>
+																<div class="event-item">
+									<div class="event-date">
+									<a class="events-date" href="" 
+										target="_blank">Feb 5</a> 
+									</div>
+									<div class="event-name">
+									<a class="events-name" href="" 
+										target="_blank">FOSDEM &#8211; Belgium</a>
+									</div>
+								</div>
+															</div>
+						</div>
+					</div>	
+				</div>
+			</div>
+
+			</div>
+									<div class="clearfix"></div>
+
+						<script>
+						jQuery(document).ready(function($){
+							$('.companySlideshow img:gt(0)').hide();
+							setInterval(function(){$('.companySlideshow :first-child').fadeOut().next('img').fadeIn().end().appendTo('.companySlideshow');}, 7500);
+						});
+						</script>
+							<div class="companySlideshow">
+								<img src="http://www.datastax.com/wp-content/themes/datastax-custom/images/quotes/quotes-backupify.jpg" alt="Backupify Quote"/>
+								<img src="http://www.datastax.com/wp-content/themes/datastax-custom/images/quotes/quotes-constantcontact.jpg" alt="Constant Contact Quote"/>
+								<img src="http://www.datastax.com/wp-content/themes/datastax-custom/images/quotes/quotes-digitalreasoning.jpg" alt="Digital Reasoning Quote"/>
+								<img src="http://www.datastax.com/wp-content/themes/datastax-custom/images/quotes/quotes-netflix.jpg" alt="Netflix Quote"/>
+								<img src="http://www.datastax.com/wp-content/themes/datastax-custom/images/quotes/quotes-ooyala.jpg" alt="Ooyala Quote"/>
+								<img src="http://www.datastax.com/wp-content/themes/datastax-custom/images/quotes/quotes-openwave.jpg" alt="Openwave Quote"/>
+								<img src="http://www.datastax.com/wp-content/themes/datastax-custom/images/quotes/quotes-rackspace.jpg" alt="Rackspace Quote"/>
+							</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="clearfix"></div>
+				</div>
+			</div>
+			<div class="footer-wrapper">
+				<div class="footer body-clip-width">
+					<div class="footer-links"><ul id="menu-footer-links" class="menu"><li id="menu-item-193" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-153 current_page_item first"><a href="http://www.datastax.com/">Home</a></li>
+<li id="menu-item-1261" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="http://www.datastax.com/about-us/about-datastax">About Us</a></li>
+<li id="menu-item-191" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="http://www.datastax.com/contact-us">Contact</a></li>
+<li id="menu-item-199" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="http://www.datastax.com/privacy">Privacy Policy</a></li>
+<li id="menu-item-198" class="menu-item menu-item-type-post_type menu-item-object-page last"><a href="http://www.datastax.com/terms-of-service">Terms of Service</a></li>
+</ul></div>					<div style="float:right;" class="followus">
+						Follow us <span class="icons">
+							<a href="http://www.twitter.com/datastax"><img src="http://www.datastax.com/wp-content/themes/datastax-custom/images/twitter_icon.png" alt="Twitter Icon"/></a>
+							<a href="http://feeds.feedburner.com/datastax"><img src="http://www.datastax.com/wp-content/themes/datastax-custom/images/rss_icon.png" alt="RSS Icon"/></a>
+							<a href="http://www.youtube.com/user/DataStaxMedia"><img src="http://www.datastax.com/wp-content/themes/datastax-custom/images/youtube_icon.png" alt="YouTube Icon"/></a>
+						</span>
+					</div>
+				</div>
+			</div>
+			<div class="trademark body-clip-width">
+				<a href="http://www.rackspace.com"><img src="http://www.datastax.com/wp-content/themes/datastax-custom/images/rax-powered.png" alt="Powered by Rackspace" align="top" /></a>
+				<div class="txt">
+					Apache, Apache Cassandra, Cassandra, Apache Hadoop, Hadoop and the eye logo are trademarks of the <a href="http://www.apache.org/foundation/marks/">Apache Software Foundation</a>.
+				</div>
+			</div>
+		</div>
+		<script type='text/javascript' src='http://www.datastax.com/wp-content/themes/datastax-custom/js/datastax-slider3.js?ver=3.0'></script>
+<script type='text/javascript' src='http://www.datastax.com/wp-content/themes/datastax-custom/js/jQueryRotate.2.1.js?ver=2.1'></script>
+<script type='text/javascript' src='http://www.datastax.com/wp-content/themes/datastax-custom/js/jquery.easing.1.3.js?ver=1.3'></script>
+<script type="text/javascript" src="https://apis.google.com/js/plusone.js">{lang: "en-US"}</script><script type="text/javascript">
+function wdgpo_plusone_click (el) {
+	if (typeof window._gaq != "undefined") {
+		 _gaq.push(['_trackEvent', 'Google +1', el.state, document.title]);
+	}
+}
+</script>
+<!-- HubSpot Analytics for WordPress | http://success.hubspot.com/ -->
+<script type="text/javascript" language="javascript">
+	var hs_portalid = 91993;
+	var hs_salog_version = "2.00";
+	var hs_ppa = "datastax.app9.hubspot.com";
+	document.write(unescape("%3Cscript src='" + document.location.protocol + "//" + hs_ppa + "/salog.js.aspx' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<!-- End of HubSpot Analytics code -->
+		
+		<!-- Start of HubSpot Logging Code  -->
+		<script type="text/javascript" language="javascript">
+		var hs_portalid=91993;
+		var hs_salog_version = "2.00";
+		var hs_ppa = "datastax.app9.hubspot.com";
+		document.write(unescape("%3Cscript src='" + document.location.protocol +
+		"//" + hs_ppa + "/salog.js.aspx' type='text/javascript'%3E%3C/script%3E"));
+		</script>
+		<!-- End of HubSpot Logging Code -->
+		
+		<script type="text/javascript">
+
+		  var _gaq = _gaq || [];
+		  _gaq.push(['_setAccount', 'UA-20879577-1']);
+		  _gaq.push(['_trackPageview']);
+		
+		  (function() {
+			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		  })();
+		
+		</script>
+		<script src="http://www.google.com/jsapi" type="text/javascript"></script>
+		<script type='text/javascript' src='http://www.datastax.com/wp-content/themes/datastax-custom/js/datastax-search.js?ver=1.0'></script>
+	</body>
+</html>
